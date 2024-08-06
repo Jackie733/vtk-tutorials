@@ -1,0 +1,20 @@
+{
+  "name": "vtk-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite packages/simple"
+  },
+  "keywords": [],
+  "author": "Jackie Tsien",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.0.2",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5"
+  },
+  "dependencies": {
+    "@kitware/vtk.js": "^31.2.0"
+  }
+}
