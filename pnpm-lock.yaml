@@ -23,10 +23,6 @@ importers:
         version: 5.3.5(@types/node@22.0.2)(terser@5.31.3)
 
   packages/simple:
-    dependencies:
-      '@kitware/vtk.js':
-        specifier: ^31.2.0
-        version: 31.2.0(@babel/preset-env@7.25.3(@babel/core@7.25.2))(autoprefixer@10.4.19(postcss@8.4.40))(webpack@5.93.0)(wslink@2.1.1)
     devDependencies:
       vite:
         specifier: ^5.3.4
